@@ -16,10 +16,6 @@ complexType = { address: "address" };*/
 var name = "ABID";
 alert(name);
 name = 1;
-alert(name);
-var myFunction = function () {
-    alert(name);
-};
 setTimeout(function () {
-    myFunction;
+    alert(name);
 }, 1000);
